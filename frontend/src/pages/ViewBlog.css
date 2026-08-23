@@ -1,0 +1,31 @@
+/* ViewBlog.css
+.view-blog-page {
+  padding: 20px;
+}
+
+.view-blog-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-post {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+} */
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-page {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+}

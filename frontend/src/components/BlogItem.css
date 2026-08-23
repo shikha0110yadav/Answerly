@@ -1,0 +1,132 @@
+/* QuestionItem.css */
+
+.blog-item {
+  background-color: #cec7c7;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  border: 1px solid black;
+  box-shadow: 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+
+.blog-content {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.meta {
+  color: #888;
+  margin-bottom: 15px;
+}
+
+.comment-item,
+.reply-item {
+  margin-bottom: 20px;
+}
+
+.comment-message,
+.reply-message {
+  background-color: #e5e5e5;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.comment-user,
+.reply-user{
+  margin-top: 10px;
+  color: #555;
+}
+
+.reply-section {
+  margin-top: 10px;
+}
+
+.reply-label {
+  font-weight: bold;
+}
+
+/* .blog-comments-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-comments-section {
+  margin-top: 20px;
+} */
+
+/* .vote {
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  height: 25px;
+  cursor: pointer;
+  background: url('https://i.stack.imgur.com/iqN2k.png');
+  background-position: 0 -25px;
+} 
+
+
+.vote.on {
+  background-position: 0 2px;
+} */
+
+/* like dislike button */
+.vote_up_off {
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  height: 25px;
+  cursor: pointer;
+  background: url(' https://i.stack.imgur.com/nxBdX.png');
+  background-position: 0 -25px;
+  margin-left: 5px;
+} 
+
+.vote_up_on {
+  background-position: 0 2px;
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  height: 25px;
+  cursor: pointer;
+  background: url('https://i.stack.imgur.com/nxBdX.png');
+  margin-left: 5px;
+}
+
+.vote_down_off {
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  height: 25px;
+  cursor: pointer;
+  background: url('https://i.stack.imgur.com/vWw7n.png');
+  background-position: 0 -1px;
+  margin-top: 3px;
+} 
+
+
+.vote_down_on {
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  height: 25px;
+  cursor: pointer;
+  background: url('https://i.stack.imgur.com/vWw7n.png');
+  background-position: 0 -28px;
+  margin-top: 3px;
+} 
+
+.comment-button-blog {
+  /* display: block; */
+  width: 200px;
+  left: 43%;
+  position: relative;
+  /* margin-left: 650px; */
+}

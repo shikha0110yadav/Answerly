@@ -1,0 +1,67 @@
+/* Center the login form vertically and horizontally */
+.login {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  text-align: center;
+  margin-top: 150px;
+}
+
+/* Style the heading */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Dark text color */
+}
+
+/* Style the input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style the login button */
+button {
+  padding: 12px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Add some spacing between elements */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Style error messages */
+.error-message {
+  color: #ff0000; /* Red color for error messages */
+  margin-top: 10px;
+}
+
+/* Style link for forgot password or register */
+.link {
+  color: #007BFF; /* Blue color for links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline; /* Underline on hover */
+}

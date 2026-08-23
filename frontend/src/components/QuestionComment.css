@@ -1,0 +1,21 @@
+.comment-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.comment-message {
+  font-size: 0.9rem;
+  margin-right: 10px;
+}
+
+.comment-user {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+
+.reply-list {
+  padding-left: 20px;
+  display: block;
+}

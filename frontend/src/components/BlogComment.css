@@ -1,0 +1,35 @@
+.blog-comment-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    flex-direction: column;
+    background-color:#b8b5b5;
+    /* box-shadow:1px black; */
+}
+  
+  .blog-comment-message {
+    background-color: #e5e5e5;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 1rem;
+    /* margin-bottom: 5px; */
+  }
+  
+  .blog-comment-user {
+    /* margin-top: 10px; */
+    color: #555;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+  }
+  
+  
+  .blog-reply-list li{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+  }
+  
+  /* div {
+    display:inline;
+  } */

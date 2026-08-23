@@ -1,0 +1,17 @@
+.blog-reply-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .blog-reply-message {
+    background-color: #e5e5e5;
+  padding: 10px;
+  border-radius: 6px;
+  }
+  
+  .blog-reply-user {
+    margin-top: 10px;
+  color: #555;
+  }
+  

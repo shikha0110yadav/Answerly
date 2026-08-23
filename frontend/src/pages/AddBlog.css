@@ -1,0 +1,119 @@
+/* AddBlogPage.css */
+/* 
+.add-blog-page {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+   */
+
+   .add-blog-page {
+    font-family: Arial, sans-serif;
+    margin: 10px auto;
+    padding: 20px;
+  }
+  
+  .container {
+    /* max-width: 800px; */
+    margin: 0 auto;
+    /* padding: 10px; */
+    
+  }
+  
+  .blog-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    padding-bottom: 30px;
+  }
+  
+  .blog-form {
+    padding: 20px;
+    width: 80%; /* Make the box 80% of the parent container */
+    margin: 20px auto; /* Center the box horizontally and add margin at the top */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    text-align: center; /* Center-align the content within the box */
+    padding-bottom: 100px;
+    background-color: #d8d4d4;
+  }
+  
+  .form-group {
+   
+    margin-bottom: 15px;
+    text-align: left; /* Left-align the labels and input fields */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    /* background-color: #f1c40f; */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* .submit-btn:hover {
+    background-color: #e0b30b; 
+  } */

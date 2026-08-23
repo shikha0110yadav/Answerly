@@ -1,0 +1,171 @@
+.single-question-item {
+  background-color: #cec7c7;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  border: 1px solid black;
+  box-shadow: 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.single-question-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+
+.single-question-content {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.single-meta {
+  font-style: italic;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.single-user {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.single-votes {
+  font-style: normal;
+}
+
+.comments-section, .answers-section {
+  margin-top: 20px;
+}
+
+.comments-list, .answers-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comments-list{
+  display: block;
+}
+
+.comment-item{
+  margin-bottom: 15px;
+  background-color: #b8b5b5;
+}
+
+.answer-item {
+  margin-bottom: 15px;
+  background-color: #d7d5d5;
+}
+
+.comment-message, .answer-content {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.comment-user, .answer-user {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.reply-section {
+  margin-top: 10px;
+}
+
+.reply-list {
+  padding-left: 20px;
+}
+
+.answer-form {
+  margin-top: 20px;
+}
+
+.answer-input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.answers-list{
+  display: block;
+}
+
+/* .submit-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+} */
+
+/* .submit-button:hover {
+  background-color: #45a049;
+} */
+
+.addanswer h2 {
+  text-align: left;
+}
+
+
+/* like dislike button */
+.vote_up_off {
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  height: 25px;
+  cursor: pointer;
+  background: url(' https://i.stack.imgur.com/nxBdX.png');
+  background-position: 0 -25px;
+  margin-left: 5px;
+} 
+
+.vote_up_on {
+  background-position: 0 2px;
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  height: 25px;
+  cursor: pointer;
+  background: url('https://i.stack.imgur.com/nxBdX.png');
+  margin-left: 5px;
+}
+
+.vote_down_off {
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  height: 25px;
+  cursor: pointer;
+  background: url('https://i.stack.imgur.com/vWw7n.png');
+  background-position: 0 -1px;
+  margin-top: 3px;
+} 
+
+
+.vote_down_on {
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  height: 25px;
+  cursor: pointer;
+  background: url('https://i.stack.imgur.com/vWw7n.png');
+  background-position: 0 -28px;
+  margin-top: 3px;
+} 
+
+.comment-button{
+  align-self: flex-end;
+}
+
+.comment-button-question{
+  width: 200px;
+  left: 43%;
+  position: relative;
+}

@@ -1,0 +1,15 @@
+/* Styles for AnswerCommentReply can be similar to AnswerComment since they have a similar structure */
+.reply-item {
+  margin-bottom: 5px;
+}
+
+.reply-message {
+  font-size: 0.8rem;
+  margin-bottom: 3px;
+}
+
+.reply-user {
+  font-weight: bold;
+  font-size: 0.7rem;
+  margin-bottom: 3px;
+}

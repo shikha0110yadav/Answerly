@@ -1,0 +1,33 @@
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    color: white;
+    display: flex; /* Add flex display */
+    justify-content: space-between; /* Align items to the start and end */
+    padding: 10px 20px; /* Add padding for spacing */
+  }
+  
+  /* Style the unordered list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  /* Style the list items */
+  li {
+    margin: 0 10px;
+  }
+  
+  /* Style the links */
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Style the links on hover */
+  a:hover {
+    text-decoration: underline;
+  }
+  
